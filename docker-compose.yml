@@ -1,7 +1,7 @@
 version: "3"
 services:
   app:
-    container_name: ruby_sandbox
+    container_name: ruby_sandbox_2.6
     build: .
     environment:
       TZ: 'Asia/Tokyo'
