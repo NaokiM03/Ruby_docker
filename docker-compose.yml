@@ -1,0 +1,12 @@
+version: "3"
+services:
+  app:
+    container_name: ruby_sandbox
+    build: .
+    environment:
+      TZ: 'Asia/Tokyo'
+    working_dir: /home
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/home
